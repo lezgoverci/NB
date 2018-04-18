@@ -23,20 +23,24 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row ">
+        <div class="row" id="header">
             <div class="col">
                 <nav class="navbar navbar-light navbar-expand-md">
-                    <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                       <div class="collapse navbar-collapse"
-                            id="navcol-1">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
-                            </ul>
-                        </div> 
-                        <a class="navbar-brand" href="#"><?php bloginfo('name') ?></a>
-                    </div>
+                    <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse" data-target="#header-nav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="col">   
+                            <div class="collapse navbar-collapse"
+                                    id="header-nav">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                                </ul>
+                            </div> 
+                            
+                        </div>
+                        <div class="col text-center"><a class="navbar-brand" href="#"><?php bloginfo('name') ?></a></div>
+                        <div class="col"></div>
+                    <div>
                 </nav>
             </div>
         </div>

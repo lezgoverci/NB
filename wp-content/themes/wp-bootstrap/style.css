@@ -7,14 +7,38 @@ Text Domain: northbuzz
 
 */
 
+#header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header .nav-item{
+    margin-right: 20px;
+}
+
 .card{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.card .profile-thumbnail{
+    width: 40px;
+    height: 40px;
+}
+
+.card .author .name{
+    font-weight: bold;
+}
+
 #featured-post{
     margin-top:50px;
     margin-bottom:20px;
+    color: white;
+
+}
+
+#featured-post .title{
+    font-size: calc(16px + 1.6vw);
 }
 
 #footer{
@@ -37,19 +61,27 @@ p {
     font-family: 'Noto Serif', serif;
 }
 
+.carousel {
+    background-color: black;
+}
+
+.carousel img{
+    opacity: 0.5;
+}
+
 .carousel h1{
     font-size: calc(16px + 3vw);
     font-weight: 900;
 }
 
-.carousel-item a{
+.carousel-item a, #featured-post a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 12px;
     background-color: transparent;
     border: solid white 1px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 12px;
     padding-bottom: 12px;
     letter-spacing: 3px;
@@ -69,6 +101,24 @@ p {
     border: none;
     border-color: transparent;
 }
+
+.fixed-top{
+    background-color: white;
+}
+
+#header-nav a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+#featured-post .jumbotron{
+    height: 400px;
+    padding-top: 100px;
+}
+
 @media screen and (max-width:640px){
 
     #carousel-1 .carousel-inner{
@@ -76,7 +126,7 @@ p {
     }
 
     .carousel-caption{
-        bottom:250px;
+        top:100px;
     }
 
 }
@@ -96,6 +146,12 @@ p {
     #fixed-nav{
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    #featured-post .jumbotron{
+        height: 700px;
+        padding-top: 250px;
     }
 
 }
@@ -104,6 +160,10 @@ p {
     #carousel-1 img{
         width: 100%;
         
+    }
+
+    .carousel h1{
+        font-size: 58px;
     }
 }
 
