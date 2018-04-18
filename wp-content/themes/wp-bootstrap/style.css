@@ -29,13 +29,41 @@ Text Domain: northbuzz
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Playfair Display', serif;
+    font-weight: 900;
 
+}
+
+p {
+    font-family: 'Noto Serif', serif;
 }
 
 .carousel h1{
     font-size: calc(16px + 3vw);
     font-weight: 900;
 }
+
+.carousel-item a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: transparent;
+    border: solid white 1px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    border-radius: 0%;
+
+}
+.carousel-indicators > li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
 #fixed-nav .nav-link{
     border: none;

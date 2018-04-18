@@ -8,24 +8,21 @@
                             <img class="d-block" src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image">
                             <div class="carousel-caption text-center">
                                     <h1>Example headline.</h1>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block" src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image">
                             <div class="carousel-caption text-center">
                                     <h1>Example headline.</h1>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a></p>
                               </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block" src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image">
                             <div class="carousel-caption text-center">
                                     <h1>Example headline.</h1>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a></p>
                               </div>
                         </div>
                     </div>
