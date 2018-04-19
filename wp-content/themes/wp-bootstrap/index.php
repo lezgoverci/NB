@@ -46,80 +46,37 @@
             </div>
         </div>
     </div>
+    <!-- Main -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 offset-0">
-                <div class="card">
-                    <img class="card-img-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/sample.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <div class="row author">
-                            <div class="col-auto thumbnail px-0">
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/profile-thumbnail.jpg" alt="" class="rounded-circle profile-thumbnail mx-3">
+        <?php 
+            if(have_posts()) :
+                while(have_posts()) : the_post(); ?>
+                <div class="col-sm-12 col-md-6 offset-0">
+                    <div class="card">
+                        <a href="<?php the_permalink();?>">
+                        <img class="card-img-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/sample.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row author">
+                                <div class="col-auto thumbnail px-0">
+                                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/profile-thumbnail.jpg" alt="" class="rounded-circle profile-thumbnail mx-3">
+                                </div>
+                                <div class="col info px-0 pb-2">
+                                    <span class="d-block name"><?php the_author();?></span>
+                                    <span class="d-block date"><?php the_date();?></span>
+                                </div>
                             </div>
-                            <div class="col info px-0 pb-2">
-                                <span class="d-block name">John Doe</span>
-                                <span class="d-block date">April 15, 2018</span>
-                            </div>
+                            
+                            <h4 class="card-title"><?php the_title();?></h4>
                         </div>
-                        
-                        <h4 class="card-title">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in</h4>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 offset-0">
-                <div class="card">
-                    <img class="card-img-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/sample.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <div class="row author">
-                            <div class="col-auto thumbnail px-0">
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/profile-thumbnail.jpg" alt="" class="rounded-circle profile-thumbnail mx-3">
-                            </div>
-                            <div class="col info px-0 pb-2">
-                                <span class="d-block name">John Doe</span>
-                                <span class="d-block date">April 15, 2018</span>
-                            </div>
-                        </div>
-                        
-                        <h4 class="card-title">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 offset-0">
-                <div class="card">
-                    <img class="card-img-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/sample.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <div class="row author">
-                            <div class="col-auto thumbnail px-0">
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/profile-thumbnail.jpg" alt="" class="rounded-circle profile-thumbnail mx-3">
-                            </div>
-                            <div class="col info px-0 pb-2">
-                                <span class="d-block name">John Doe</span>
-                                <span class="d-block date">April 15, 2018</span>
-                            </div>
-                        </div>
-                        
-                        <h4 class="card-title">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 offset-0">
-                <div class="card">
-                    <img class="card-img-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/sample.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <div class="row author">
-                            <div class="col-auto thumbnail px-0">
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2018/profile-thumbnail.jpg" alt="" class="rounded-circle profile-thumbnail mx-3">
-                            </div>
-                            <div class="col info px-0 pb-2">
-                                <span class="d-block name">John Doe</span>
-                                <span class="d-block date">April 15, 2018</span>
-                            </div>
-                        </div>
-                        
-                        <h4 class="card-title">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in</h4>
-                    </div>
-                </div>
-            </div>
+        <?php
+                endwhile;
+            else :
+                echo '<p>No posts</p>';
+            endif; ?>
         </div>
     </div>
     <div class="container-fluid">
