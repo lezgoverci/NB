@@ -42,10 +42,12 @@ Text Domain: northbuzz
 }
 
 #footer{
-    margin-top:100px;
     padding-bottom:100px;
-    background: url("../../uploads/2018/footer-image.jpg");
+    background: url("../../uploads/2018/footer-image.jpg") no-repeat;
     background-size: cover;
+    background-position-x: center;
+    background-position-y: 0px;
+    height: 650px;
     
 }
 
@@ -61,6 +63,14 @@ Text Domain: northbuzz
 
 #footer .nav-item{
     margin-right: 15px;
+}
+
+#footer a{
+    color: black;
+}
+
+#footer .row{
+    padding-top: 200px;
 }
 
 
@@ -177,6 +187,12 @@ p {
 
     .carousel h1{
         font-size: 58px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #footer .row{
+        margin-left: calc(50vw - 595px);
     }
 }
 
