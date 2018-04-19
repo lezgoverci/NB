@@ -38,7 +38,7 @@
         </div>
         <div class="row" id="fixed-nav" >
             <div class="col-auto mx-auto">
-                <ul class="nav nav-tabs " >
+                <ul class="nav" >
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>

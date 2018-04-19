@@ -1,7 +1,7 @@
 <div class="container" id="footer">
         <div class="row" >
             <div class="col">
-                <ul class="nav nav-tabs">
+                <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <ul class="nav nav-tabs">
+                <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
@@ -26,3 +26,4 @@
 </body>
 
 </html>
+
