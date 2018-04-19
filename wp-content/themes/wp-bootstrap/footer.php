@@ -1,18 +1,30 @@
     <div class="container-fluid" id="footer">
         <div class="row" >
             <div class="col-6 col-sm-12">
-                <ul class="nav">
+                <?php 
+                    $args = array(
+                        'theme_location' => 'footer1',
+                        'menu_class' => 'nav'
+                    );
+                    wp_nav_menu($args);?>
+                <!-- <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
-                </ul>
+                </ul> -->
             </div>
             <div class="col-6 col-sm-12">
-                <ul class="nav">
+                <?php 
+                    $args = array(
+                        'theme_location' => 'footer2',
+                        'menu_class' => 'nav'
+                    );
+                    wp_nav_menu($args);?>
+                <!-- <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>

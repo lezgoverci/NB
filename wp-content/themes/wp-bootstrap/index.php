@@ -38,11 +38,17 @@
         </div>
         <div class="row" id="fixed-nav" >
             <div class="col-auto mx-auto">
-                <ul class="nav" >
+                <?php 
+                    $args = array(
+                        'theme_location' => 'sticky',
+                        'menu_class' => 'nav'
+                    );
+                    wp_nav_menu($args);?>
+                <!-- <ul class="nav" >
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>

@@ -30,15 +30,21 @@
                         <div class="col">   
                             <div class="collapse navbar-collapse"
                                     id="header-nav">
-                                <ul class="nav navbar-nav">
+                                    <?php 
+                                    $args = array(
+                                        'theme_location' => 'primary',
+                                        'menu_class' => 'nav navbar-nav'
+                                    );
+                                    wp_nav_menu($args);?>
+                                <!-- <ul class="nav navbar-nav">
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
-                                </ul>
+                                </ul> -->
                             </div> 
                             
                         </div>
-                        <div class="col text-center"><a class="navbar-brand" href="#"><?php bloginfo('name') ?></a></div>
+                        <div class="col text-center"><a class="navbar-brand" href="<?php echo home_url();?>"><?php bloginfo('name') ?></a></div>
                         <div class="col"></div>
                     <div>
                 </nav>
