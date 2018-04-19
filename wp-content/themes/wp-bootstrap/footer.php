@@ -1,4 +1,4 @@
-    <div class="container" id="footer">
+    <div class="container-fluid" id="footer">
         <div class="row" >
             <div class="col-6 col-sm-12">
                 <ul class="nav">
