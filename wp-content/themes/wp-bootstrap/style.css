@@ -138,6 +138,8 @@ p {
     padding-top: 100px;
     background:  url("../../uploads/2018/13.jpg");
     position: relative;
+    background-size: cover;
+    background-position: center;
 
 }
 
