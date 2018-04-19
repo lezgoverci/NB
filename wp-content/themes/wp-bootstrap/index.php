@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="col info px-0 pb-2">
                                     <span class="d-block name"><?php the_author();?></span>
-                                    <span class="d-block date"><?php the_date();?></span>
+                                    <span class="d-block date"><?php echo get_the_date();?></span>
                                 </div>
                             </div>
                             
