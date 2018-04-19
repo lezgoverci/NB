@@ -23,5 +23,7 @@ $(document).ready(function() {
     $("#footer .nav a").addClass('nav-link');
     $("#fixed-nav .nav li").addClass('nav-item');
     $("#fixed-nav .nav a").addClass('nav-link');
+
+    $(".carousel .carousel-item:first-child").addClass('active');
   });
   
