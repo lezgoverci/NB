@@ -1,15 +1,13 @@
-<div class="container" id="footer">
+    <div class="container" id="footer">
         <div class="row" >
-            <div class="col">
+            <div class="col-6 col-sm-12">
                 <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
+            <div class="col-6 col-sm-12">
                 <ul class="nav">
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
