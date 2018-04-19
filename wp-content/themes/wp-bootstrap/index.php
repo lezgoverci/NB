@@ -123,9 +123,10 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row" id="featured-post">
-            <div class="col  px-0">
+        <div class="row" id="featured-post">  
+            <div class="col px-0">
                 <div class="jumbotron text-center">
+                    
                     <h1 class="title">Heading text</h1>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                     <p><a class="btn btn-primary" role="button" href="#">Learn more</a></p>
