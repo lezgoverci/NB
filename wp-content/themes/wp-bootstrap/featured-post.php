@@ -9,7 +9,7 @@
                 
                 if( $the_query->have_posts()) : $the_query->the_post();?>
             <div class="col px-0">
-                <div class="jumbotron text-center">
+                <div class="jumbotron text-center" style="background:url(<?php the_post_thumbnail_url();?>)">
                     
                     <h1 class="title"><?php the_title();?></h1>
                     <p><?php the_content();?></p>
