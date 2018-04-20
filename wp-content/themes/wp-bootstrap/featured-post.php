@@ -16,7 +16,7 @@
                         background-position: center;">
                     
                     <h1 class="title"><?php the_title();?></h1>
-
+                    <p><?php the_excerpt();?></p>
                     <p><a class="btn btn-primary" role="button" href="<?php the_permalink();?>">Learn more</a></p>
                 </div>
             </div>
