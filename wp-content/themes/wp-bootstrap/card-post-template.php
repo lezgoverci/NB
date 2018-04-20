@@ -1,7 +1,7 @@
 <div class="col-sm-12 col-md-6 offset-0">
     <div class="card">
         <a href="<?php the_permalink();?>">
-        <?php the_post_thumbnail(array(568,0));?>
+        <img class="card-img-top" src="<?php the_post_thumbnail_url();?>" alt="Card image cap">
         <div class="card-body">
             <div class="row author">
                 <div class="col-auto thumbnail px-0">
