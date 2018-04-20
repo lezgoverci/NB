@@ -9,7 +9,11 @@
                 
                 if( $the_query->have_posts()) : $the_query->the_post();?>
             <div class="col px-0">
-                <div class="jumbotron text-center" style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(<?php the_post_thumbnail_url();?>)">
+                <div class="jumbotron text-center" 
+                    style="
+                        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(<?php the_post_thumbnail_url();?>);
+                        background-size: cover;
+                        background-position: center;">
                     
                     <h1 class="title"><?php the_title();?></h1>
 
