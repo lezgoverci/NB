@@ -1,5 +1,7 @@
-    <!-- Featured Post -->
-    <div class="container-fluid">
+</div>
+</div>
+<!-- Featured Post -->
+    <div class="container-fluid" id="featured-post-container">
         <div class="row" id="featured-post">  
             <?php 
                         
@@ -18,3 +20,6 @@
         </div>
     </div>
     <!-- End Featured Post -->
+
+    <div class="container-fluid">
+        <div class="row" id="main-posts2">

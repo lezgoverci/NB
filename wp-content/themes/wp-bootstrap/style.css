@@ -157,7 +157,7 @@ p {
 
 }
 
-#main-posts{
+#main-posts, #main-posts2{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

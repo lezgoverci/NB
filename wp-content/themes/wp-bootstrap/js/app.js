@@ -25,5 +25,6 @@ $(document).ready(function() {
     $("#fixed-nav .nav a").addClass('nav-link');
 
     $(".carousel .carousel-item:first-child").addClass('active');
+
   });
   
