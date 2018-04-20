@@ -1,5 +1,8 @@
 <?php
 
+//Features
+add_theme_support( 'post-thumbnails' );
+
 // Navigation Menus
 
 register_nav_menus(array(
