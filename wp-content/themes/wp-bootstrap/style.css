@@ -165,7 +165,8 @@ p {
 #post-header h1{
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    max-width: 600px;
+    color: white;
 }
 
 @media screen and (max-width:640px){

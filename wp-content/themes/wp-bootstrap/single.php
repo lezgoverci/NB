@@ -23,7 +23,7 @@ get_header();
     </div>
     <!-- End Nav -->
     <div class="row" id="post-image" style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<?php the_post_thumbnail_url();?>); height:500px; background-position:center; background-size:cover;">
-        <div class="col" id="post-header">
+        <div class="col align-self-center text-center" id="post-header">
             <h1><?php the_title();?></h1>
         </div>
     </div>
