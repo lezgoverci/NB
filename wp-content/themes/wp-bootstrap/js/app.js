@@ -1,10 +1,12 @@
 $(document).ready(function() {
     $(window).on("scroll", function() {
-      if ($(window).scrollTop() >= 656 && $(window).width() >= 640) {
+      if ($(window).scrollTop() >= 676 && $(window).width() >= 640) {
         $("#fixed-nav").show();
         $("#fixed-nav").addClass("fixed-top");
+        $("#fixed-nav").css("box-shadow","0px 5px 10px rgba(0, 0, 0,0.3)");
       } else {
         $("#fixed-nav").removeClass("fixed-top");
+        $("#fixed-nav").css("box-shadow","");
       }
     });
 
