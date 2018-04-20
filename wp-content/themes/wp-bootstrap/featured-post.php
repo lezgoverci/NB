@@ -9,10 +9,10 @@
                 
                 if( $the_query->have_posts()) : $the_query->the_post();?>
             <div class="col px-0">
-                <div class="jumbotron text-center" style="background:url(<?php the_post_thumbnail_url();?>)">
+                <div class="jumbotron text-center" style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(<?php the_post_thumbnail_url();?>)">
                     
                     <h1 class="title"><?php the_title();?></h1>
-                    <p><?php the_content();?></p>
+
                     <p><a class="btn btn-primary" role="button" href="<?php the_permalink();?>">Learn more</a></p>
                 </div>
             </div>
