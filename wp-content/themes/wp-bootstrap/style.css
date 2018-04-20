@@ -107,6 +107,10 @@ p {
     font-weight: 900;
 }
 
+#carousel-1 .carousel-item{
+    height: 100%;
+}
+
 
 .carousel-item a, #featured-post a{
     /* Button */

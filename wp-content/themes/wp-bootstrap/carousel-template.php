@@ -9,8 +9,11 @@
                 
                 if( $the_query->have_posts()) :
                     while( $the_query->have_posts()):  $the_query->the_post();?>
-                <div class="carousel-item ">
-                    <?php the_post_thumbnail();?>
+                <div class="carousel-item " 
+                    style="
+                        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('<?php the_post_thumbnail_url();?>'); 
+                        background-position:center;
+                        background-size:cover;">
                     <div class="carousel-caption text-center">
                             <h1><?php the_title();?></h1>
                             <p><a class="btn btn-lg btn-primary" href="<?php the_permalink();?>" role="button">READ MORE</a></p>
