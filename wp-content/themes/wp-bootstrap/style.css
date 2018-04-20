@@ -151,8 +151,6 @@ p {
     height: 400px;
     padding-top: 100px;
     position: relative;
-    background-size: cover;
-    background-position: center;
 
 }
 
@@ -167,6 +165,12 @@ p {
     margin-right: auto;
     max-width: 600px;
     color: white;
+}
+
+#single-the-content-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width:640px){
