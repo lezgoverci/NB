@@ -2,6 +2,7 @@
 
 //Features
 add_theme_support( 'post-thumbnails' );
+add_theme_support( 'widgets' );
 
 // Navigation Menus
 
