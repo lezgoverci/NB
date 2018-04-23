@@ -5,7 +5,7 @@ if(have_posts()):
     while(have_posts()): the_post();
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid" id="nb-single-post-container">
     <!-- Nav -->
     <div class="row" id="fixed-nav" >
         <div class="col-auto mx-auto">
@@ -31,7 +31,7 @@ if(have_posts()):
     </div>
     <!-- End Header -->
     <!-- Content -->
-    <div class="row" id="single-the-content-container">
+    <div class="row">
         <div class="col">
             <p><?php the_content();?></p>
         </div>
