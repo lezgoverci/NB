@@ -19,7 +19,7 @@ function nb_widget_full_width_pic($atts){
 
      return "</div></div>
                 <div class='row '>
-                    <div class='col px-0 mb-2'>
+                    <div class='col'>
                         <img src='".$a['src']."' class='img-fluid'/>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function nb_widget_two_pic($atts){
         'src2' => ''
     ), $atts);
 
-    return "</div></div><div class='row '><div class='col px-0 mr-1 mb-2'><img src='".$a['src1']."' class='img-fluid'/></div><div class='col px-0 ml-1' ><img src='".$a['src2']."' class='img-fluid'/></div></div><div class='row'><div class='col'>";
+    return "</div></div><div class='row '><div class=' col-xs-12 col-sm-6'><img src='".$a['src1']."' class='img-fluid'/></div><div class=' col-xs-12 col-sm-6' ><img src='".$a['src2']."' class='img-fluid'/></div></div><div class='row'><div class='col'>";
 }
 
  add_shortcode('nb_pic_full_width', 'nb_widget_full_width_pic');
