@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
 
+
      <!-- styles -->
      <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -44,8 +45,12 @@
                             </div> 
                             
                         </div>
-                        <div class="col text-center"><a class="navbar-brand" href="<?php echo home_url();?>"><?php bloginfo('name') ?></a></div>
-                        <div class="col"></div>
+                        <div class="col text-center logo"><a class="navbar-brand" href="<?php echo home_url();?>"><img src="<?php echo home_url().'/wp-content/uploads/2018/logo.png';?>"/></a></div>
+                        <div class="col social-icons text-right">
+                            <i class="fa fa-facebook-f"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-search"></i>
+                        </div>
                     <div>
                 </nav>
             </div>
