@@ -45,7 +45,7 @@
                             </div> 
                             
                         </div>
-                        <div class="col text-center logo"><a class="navbar-brand" href="<?php echo home_url();?>"><img src="<?php echo home_url().'/wp-content/uploads/2018/logo.png';?>"/></a></div>
+                        <div class="col text-center logo"><a class="navbar-brand" href="<?php echo home_url();?>"><img src="<?php echo home_url().'/wp-content/uploads/2018/04/logo.png';?>"/></a></div>
                         <div class="col social-icons text-right">
                             <a href="https://www.facebook.com/NorthBuzz-Inc-219805832119092/"><i class="fa fa-facebook-f"></i></a>
                             <a href="https://twitter.com/northbuzzblog"><i class="fa fa-twitter"></i></a>
