@@ -1,4 +1,4 @@
-    <div class="container-fluid" id="footer">
+    <div class="container-fluid" id="footer" style="background-image: url('<?php echo home_url() . "/wp-content/uploads/2018/04/footer-image.jpg"; ?>') ;">
         <div class="row" >
             <div class="col-6 col-sm-12">
                 <?php 
