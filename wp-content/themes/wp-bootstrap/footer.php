@@ -33,7 +33,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/app.js"></script>
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"e797927707c7e9e14fabf1f5c","lid":"e982e762dd"}) })</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"7984d91cf3be8b18f851f80b9","lid":"8f8d98708a"}) })</script>
 </body>
 
 </html>
